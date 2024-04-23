@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Chess from './chess/Chess';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </header>
       <section id="section1">
         <h2>Chess</h2>
+        <Chess />
         <p>This will be a fully functioning chess game.</p>
       </section>
 
